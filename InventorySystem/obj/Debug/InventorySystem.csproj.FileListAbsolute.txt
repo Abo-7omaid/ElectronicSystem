@@ -1,0 +1,9 @@
+D:\C# LAB\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+D:\C# LAB\InventorySystem\InventorySystem\bin\Debug\InventorySystem.exe
+D:\C# LAB\InventorySystem\InventorySystem\bin\Debug\InventorySystem.pdb
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.csproj.AssemblyReference.cache
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.csproj.GenerateResource.cache
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.csproj.CoreCompileInputs.cache
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.exe
+D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.pdb
