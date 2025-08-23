@@ -26,12 +26,12 @@ namespace InventorySystem.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\C# LAB\\InventoryApp\\Inven" +
-            "toryApp\\InventoryDB.mdf\";Integrated Security=True;Connect Timeout=30;Encrypt=Tru" +
-            "e")]
-        public string InventoryConn {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\C# LAB\\InventorySystem\\In" +
+            "ventorySystem\\InventoryDB.mdf\";Integrated Security=True;Connect Timeout=30;Encry" +
+            "pt=False;")]
+        public string Inventory_DB_Conn {
             get {
-                return ((string)(this["InventoryConn"]));
+                return ((string)(this["Inventory_DB_Conn"]));
             }
         }
     }

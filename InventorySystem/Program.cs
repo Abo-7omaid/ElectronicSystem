@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace InventorySystem
@@ -16,7 +17,19 @@ namespace InventorySystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Dashboard());
+            loginForm loginPage = new loginForm();
+
+            if (loginPage.ShowDialog() == DialogResult.OK)   // login successful
+            {
+                Application.Run(new Dashboard());    // start app with Dashboard
+            }
+            else
+            {
+                // Exit if login failed or canceled
+                Application.Exit();
+            }
+
         }
     }
 }

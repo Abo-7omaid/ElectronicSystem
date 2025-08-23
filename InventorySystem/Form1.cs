@@ -7,14 +7,88 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
+
 
 namespace InventorySystem
 {
-    public partial class Form1 : Form
+
+
+
+
+
+
+
+
+    public partial class loginForm : Form
     {
-        public Form1()
+        public loginForm()
         {
             InitializeComponent();
+             string myConn = Properties.Settings.Default.Inventory_DB_Conn;
+            SqlConnection conn = new SqlConnection(myConn);
+            conn.Open();
+
+
+
+
+        }
+        bool opened = false;
+
+        private void createAccount_btn_Click(object sender, EventArgs e)
+        {
+            createAccountForm create_account_form = new createAccountForm();
+            create_account_form.Show(); 
+        }
+
+        private void login_btn_Click(object sender, EventArgs e)
+        {
+            string myConn = Properties.Settings.Default.Inventory_DB_Conn;  
+            SqlConnection conn = new SqlConnection(myConn);
+            conn.Open();
+            string sql = "SELECT user_name FROM Users WHERE user_name = @username AND user_password = @password";
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@username", user_txt.Text);
+                cmd.Parameters.AddWithValue("@password", password_txt.Text);
+                object result = cmd.ExecuteScalar();
+                if (result != null)
+                {
+
+                    string userRole = result.ToString();
+                    MessageBox.Show("Login successful! User role: " + userRole);
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
+                    // Here you can redirect to the main application form based on the user role
+                  
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password." );
+                }
+            }
+        }
+
+        private void loginForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //Application.Exit();
+        }
+
+        private void loginForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Application.Exit();
+        }
+
+        private void username_validating(object sender, CancelEventArgs e)
+        {
+            string error = null;
+            if(((Control)sender).Text.Trim().Length == 0)
+            {
+                error = "Enter UserName!";
+                e.Cancel = true;
+            }
+            errorProvider1.SetError((Control)sender, error);
         }
     }
 }

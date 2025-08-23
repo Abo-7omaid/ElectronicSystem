@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\C# LAB\\InventorySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|d:\\c# lab\\inventorysystem\\inventorysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|d:\\c# lab\\inventorysystem\\inventorysystem\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\db_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\db_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|D:\\C# LAB\\InventorySystem\\inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +53,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 231,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,16 +65,143 @@
               "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Form1.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Form1.cs",
-              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Form1.cs [Design]",
-              "RelativeToolTip": "InventorySystem\\Form1.cs [Design]",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Form1.cs",
+              "RelativeToolTip": "InventorySystem\\Form1.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAC4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T22:44:10.877Z",
+              "WhenOpened": "2025-08-23T21:44:04.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "createAccountForm.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\createAccountForm.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\createAccountForm.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\createAccountForm.cs",
+              "RelativeToolTip": "InventorySystem\\createAccountForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:43:37.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Sales.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Sales.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Sales.cs",
+              "RelativeToolTip": "InventorySystem\\Sales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T21:37:01.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Dashboard.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Dashboard.cs [Design]",
+              "RelativeToolTip": "InventorySystem\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T23:14:58.948Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Dashboard.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Dashboard.cs",
+              "RelativeToolTip": "InventorySystem\\Dashboard.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwF4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:37:08.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sales.cs [Design]",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Sales.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Sales.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Sales.cs [Design]",
+              "RelativeToolTip": "InventorySystem\\Sales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T23:44:47.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Program.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\Program.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\Program.cs",
+              "RelativeToolTip": "InventorySystem\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T22:51:27.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "productForm.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\productForm.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\productForm.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\productForm.cs",
+              "RelativeToolTip": "InventorySystem\\productForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T21:10:10.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PROD.cs [Design]",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\PROD.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\PROD.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\PROD.cs [Design]",
+              "RelativeToolTip": "InventorySystem\\PROD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T22:03:58.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "db_class.cs",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\db_class.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\db_class.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\db_class.cs",
+              "RelativeToolTip": "InventorySystem\\db_class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T23:13:09.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "productForm.cs [Design]",
+              "DocumentMoniker": "D:\\C# LAB\\InventorySystem\\InventorySystem\\productForm.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\productForm.cs",
+              "ToolTip": "D:\\C# LAB\\InventorySystem\\InventorySystem\\productForm.cs [Design]",
+              "RelativeToolTip": "InventorySystem\\productForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:48:01.207Z"
             }
           ]
         }
