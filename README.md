@@ -1,11 +1,11 @@
 # Electronic System | نظام إدارة المخزون الإلكتروني
 
 ## Team Members | أعضاء الفريق
+- Ahmed Alrubaiee
 - Ali Alhawany
-- Ahmed mostufa
-- Tareq alaqwa
+- Tareq Alakwaa
 - Bader Saree
-- Dhiaa alawami
+- Dhiaa Alawami
 
 ---
 
