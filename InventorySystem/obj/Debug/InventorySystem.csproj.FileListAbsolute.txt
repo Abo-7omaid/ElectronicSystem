@@ -17,3 +17,22 @@ D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.Sales.resour
 D:\C# LAB\InventorySystem\InventorySystem\bin\Debug\CuoreUI.dll
 D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.productForm.resources
 D:\C# LAB\InventorySystem\InventorySystem\obj\Debug\InventorySystem.PROD.resources
+D:\res\e\InventorySystem\bin\Debug\InventorySystem.exe.config
+D:\res\e\InventorySystem\bin\Debug\InventorySystem.exe
+D:\res\e\InventorySystem\bin\Debug\InventorySystem.pdb
+D:\res\e\InventorySystem\bin\Debug\CuoreUI.dll
+D:\res\e\InventorySystem\bin\Debug\Guna.UI2.dll
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.createAccountForm.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.Dashboard.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.loginForm.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.PROD.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.productForm.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.Sales.resources
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.csproj.GenerateResource.cache
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.exe
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.pdb
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.csproj.AssemblyReference.cache
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.exe.config
+D:\res\e\InventorySystem\obj\Debug\InventorySystem.csproj.CoreCompileInputs.cache
+D:\res\e\InventorySystem\obj\Debug\Inventor.4967888A.Up2Date

@@ -8,19 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 
 
 
 namespace InventorySystem
 {
-
-
-
-
-
-
-
-
     public partial class loginForm : Form
     {
         public loginForm()
@@ -38,9 +31,15 @@ namespace InventorySystem
 
         private void createAccount_btn_Click(object sender, EventArgs e)
         {
+
             createAccountForm create_account_form = new createAccountForm();
-            create_account_form.Show(); 
+            create_account_form.ShowDialog();
+            //to make the loginForm disable when the createAccountForm is opened
+
+
+
         }
+
 
         private void login_btn_Click(object sender, EventArgs e)
         {
@@ -66,6 +65,8 @@ namespace InventorySystem
                 else
                 {
                     MessageBox.Show("Invalid username or password." );
+                    user_txt.AcceptsReturn = true;
+                    user_txt.Focus();
                 }
             }
         }
@@ -89,6 +90,35 @@ namespace InventorySystem
                 e.Cancel = true;
             }
             errorProvider1.SetError((Control)sender, error);
+        }
+
+        private void loginForm_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void loginForm_Shown(object sender, EventArgs e)
+        {
+            user_txt.Focus();
+        }
+
+        private void guna2GroupBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            bool isPasswordVisible = password_txt.UseSystemPasswordChar;
+            if (password_txt.UseSystemPasswordChar)
+            {
+                password_txt.UseSystemPasswordChar = false;
+                eyeImage_btn.Image = Properties.Resources.icons8_hide_25;
+            }
+            else
+            {
+                password_txt.UseSystemPasswordChar = true;
+                eyeImage_btn.Image = Properties.Resources.icons8_eye_25;
+            }
         }
     }
 }

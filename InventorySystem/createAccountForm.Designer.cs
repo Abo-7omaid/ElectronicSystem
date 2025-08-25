@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.createPhone_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.createNewAccount_btn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.createRole_cb = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -37,12 +41,16 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.createNewAccount_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.guna2GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
             // 
+            this.guna2GroupBox1.BorderColor = System.Drawing.Color.Black;
+            this.guna2GroupBox1.Controls.Add(this.createPhone_txt);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GroupBox1.Controls.Add(this.createNewAccount_btn);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GroupBox1.Controls.Add(this.createRole_cb);
@@ -52,20 +60,73 @@
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(26, 12);
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
+            this.guna2GroupBox1.Location = new System.Drawing.Point(1, 1);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(600, 375);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(616, 424);
             this.guna2GroupBox1.TabIndex = 0;
-            this.guna2GroupBox1.Text = "guna2GroupBox1";
+            this.guna2GroupBox1.Text = "Create Account";
+            // 
+            // createPhone_txt
+            // 
+            this.createPhone_txt.AutoRoundedCorners = true;
+            this.createPhone_txt.BorderColor = System.Drawing.Color.Black;
+            this.createPhone_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.createPhone_txt.DefaultText = "";
+            this.createPhone_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.createPhone_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.createPhone_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.createPhone_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.createPhone_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.createPhone_txt.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.createPhone_txt.ForeColor = System.Drawing.Color.Black;
+            this.createPhone_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.createPhone_txt.Location = new System.Drawing.Point(162, 220);
+            this.createPhone_txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.createPhone_txt.Name = "createPhone_txt";
+            this.createPhone_txt.PlaceholderText = "";
+            this.createPhone_txt.SelectedText = "";
+            this.createPhone_txt.Size = new System.Drawing.Size(332, 33);
+            this.createPhone_txt.TabIndex = 4;
+            this.createPhone_txt.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(26, 220);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(86, 22);
+            this.guna2HtmlLabel5.TabIndex = 18;
+            this.guna2HtmlLabel5.Text = "Phone No:";
+            // 
+            // createNewAccount_btn
+            // 
+            this.createNewAccount_btn.AutoRoundedCorners = true;
+            this.createNewAccount_btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.createNewAccount_btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.createNewAccount_btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.createNewAccount_btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.createNewAccount_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            this.createNewAccount_btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.createNewAccount_btn.ForeColor = System.Drawing.Color.White;
+            this.createNewAccount_btn.Location = new System.Drawing.Point(224, 334);
+            this.createNewAccount_btn.Name = "createNewAccount_btn";
+            this.createNewAccount_btn.Size = new System.Drawing.Size(191, 39);
+            this.createNewAccount_btn.TabIndex = 6;
+            this.createNewAccount_btn.Text = "Create Account";
+            this.createNewAccount_btn.Click += new System.EventHandler(this.createNewAccount_btn_Click);
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(31, 223);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(31, 273);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(89, 22);
             this.guna2HtmlLabel4.TabIndex = 16;
@@ -86,10 +147,11 @@
             this.createRole_cb.Items.AddRange(new object[] {
             "Admin",
             "Employee"});
-            this.createRole_cb.Location = new System.Drawing.Point(162, 223);
+            this.createRole_cb.Location = new System.Drawing.Point(162, 273);
             this.createRole_cb.Name = "createRole_cb";
             this.createRole_cb.Size = new System.Drawing.Size(332, 36);
-            this.createRole_cb.TabIndex = 15;
+            this.createRole_cb.TabIndex = 5;
+            this.createRole_cb.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
             // guna2TextBox3
             // 
@@ -111,7 +173,8 @@
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.Size = new System.Drawing.Size(332, 33);
-            this.guna2TextBox3.TabIndex = 14;
+            this.guna2TextBox3.TabIndex = 3;
+            this.guna2TextBox3.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
             // createPassword_txt
             // 
@@ -133,7 +196,8 @@
             this.createPassword_txt.PlaceholderText = "";
             this.createPassword_txt.SelectedText = "";
             this.createPassword_txt.Size = new System.Drawing.Size(332, 34);
-            this.createPassword_txt.TabIndex = 13;
+            this.createPassword_txt.TabIndex = 2;
+            this.createPassword_txt.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
             // createUserName_txt
             // 
@@ -155,7 +219,8 @@
             this.createUserName_txt.PlaceholderText = "";
             this.createUserName_txt.SelectedText = "";
             this.createUserName_txt.Size = new System.Drawing.Size(332, 40);
-            this.createUserName_txt.TabIndex = 12;
+            this.createUserName_txt.TabIndex = 1;
+            this.createUserName_txt.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
             // guna2HtmlLabel3
             // 
@@ -190,34 +255,23 @@
             this.guna2HtmlLabel1.TabIndex = 9;
             this.guna2HtmlLabel1.Text = "User-name:";
             // 
-            // createNewAccount_btn
+            // errorProvider1
             // 
-            this.createNewAccount_btn.AutoRoundedCorners = true;
-            this.createNewAccount_btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.createNewAccount_btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.createNewAccount_btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.createNewAccount_btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.createNewAccount_btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.createNewAccount_btn.ForeColor = System.Drawing.Color.White;
-            this.createNewAccount_btn.Location = new System.Drawing.Point(225, 286);
-            this.createNewAccount_btn.Name = "createNewAccount_btn";
-            this.createNewAccount_btn.Size = new System.Drawing.Size(191, 39);
-            this.createNewAccount_btn.TabIndex = 17;
-            this.createNewAccount_btn.Text = "Create Account";
-            this.createNewAccount_btn.Click += new System.EventHandler(this.createNewAccount_btn_Click);
+            this.errorProvider1.ContainerControl = this;
             // 
             // createAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(666, 441);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            this.ClientSize = new System.Drawing.Size(621, 431);
             this.Controls.Add(this.guna2GroupBox1);
             this.Name = "createAccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "createAccountForm";
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -234,5 +288,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button createNewAccount_btn;
+        private Guna.UI2.WinForms.Guna2TextBox createPhone_txt;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

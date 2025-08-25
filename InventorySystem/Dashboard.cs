@@ -107,6 +107,58 @@ namespace InventorySystem
 
 
         }
+
+        private void main_pnl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cuiButton2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiLabel4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sale_btn_Click_1(object sender, EventArgs e)
+        {
+            main_pnl.Controls.Clear();
+            Sales salePage = new Sales();
+            // Collapse the menu
+            //sidebar_pnl.Width = 0;
+            //isCollapsed = true;
+
+            salePage.TopLevel = false;
+            main_pnl.Controls.Add(salePage);
+            salePage.Dock = DockStyle.Fill;
+            salePage.Show();
+        }
+
+        private void product_btn_Click(object sender, EventArgs e)
+        {
+            productForm productPage = new productForm();
+            //productPage.Show();
+
+            main_pnl.Controls.Clear();
+            productPage.TopLevel = false;
+            main_pnl.Controls.Add(productPage);
+            productPage.Dock = DockStyle.Fill;
+            //productPage.FormBorderStyle = FormBorderStyle.None; // Optional: Set the form border style
+            productPage.Show();
+        }
+
+        private void cuiLabel1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

@@ -17,18 +17,18 @@ namespace InventorySystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Dashboard());
+            Application.Run(new Dashboard());
             loginForm loginPage = new loginForm();
 
-            if (loginPage.ShowDialog() == DialogResult.OK)   // login successful
-            {
-                Application.Run(new Dashboard());    // start app with Dashboard
-            }
-            else
-            {
-                // Exit if login failed or canceled
-                Application.Exit();
-            }
+            //if (loginPage.ShowDialog() == DialogResult.OK)   // login successful
+            //{
+            //    Application.Run(new Dashboard());    // start app with Dashboard
+            //}
+            //else
+            //{
+            //    // Exit if login failed or canceled
+            //    Application.Exit();
+            //}
 
         }
     }
