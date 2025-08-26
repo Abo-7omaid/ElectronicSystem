@@ -71,7 +71,7 @@
             this.cuiPanel1.Location = new System.Drawing.Point(0, 0);
             this.cuiPanel1.Name = "cuiPanel1";
             this.cuiPanel1.OutlineThickness = 1F;
-            this.cuiPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            this.cuiPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.cuiPanel1.PanelOutlineColor = System.Drawing.Color.Black;
             this.cuiPanel1.Rounding = new System.Windows.Forms.Padding(0);
             this.cuiPanel1.Size = new System.Drawing.Size(1315, 46);
@@ -171,7 +171,7 @@
             this.sidebar_pnl.Location = new System.Drawing.Point(0, 46);
             this.sidebar_pnl.Name = "sidebar_pnl";
             this.sidebar_pnl.OutlineThickness = 1F;
-            this.sidebar_pnl.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            this.sidebar_pnl.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.sidebar_pnl.PanelOutlineColor = System.Drawing.Color.Black;
             this.sidebar_pnl.Rounding = new System.Windows.Forms.Padding(0);
             this.sidebar_pnl.Size = new System.Drawing.Size(153, 732);
@@ -441,7 +441,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1315, 778);

@@ -16,5 +16,25 @@ namespace InventorySystem
         {
             InitializeComponent();
         }
+
+        private void guna2ImageButton9_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void close_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cuiTextBox7_ContentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuiTextBox8_ContentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

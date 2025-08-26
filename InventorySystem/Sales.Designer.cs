@@ -28,31 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales));
             this.label18 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.cuiTextBox7 = new CuoreUI.Controls.cuiTextBox();
-            this.cuiTextBox8 = new CuoreUI.Controls.cuiTextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.cuiTextBox2 = new CuoreUI.Controls.cuiTextBox();
             this.cuiTextBox1 = new CuoreUI.Controls.cuiTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.cuiLabel1 = new CuoreUI.Controls.cuiLabel();
-            this.cuiLabel2 = new CuoreUI.Controls.cuiLabel();
-            this.sale_lbl = new CuoreUI.Controls.cuiLabel();
-            this.cuiLabel3 = new CuoreUI.Controls.cuiLabel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.Bill = new CuoreUI.Controls.cuiGroupBox();
             this.cuiTextBox6 = new CuoreUI.Controls.cuiTextBox();
             this.cuiButton4 = new CuoreUI.Controls.cuiButton();
@@ -65,7 +53,6 @@
             this.cuiTextBox10 = new CuoreUI.Controls.cuiTextBox();
             this.cuiTextBox9 = new CuoreUI.Controls.cuiTextBox();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.cuiPanel1 = new CuoreUI.Controls.cuiPanel();
             this.cuiButton2 = new CuoreUI.Controls.cuiButton();
             this.cuiTextBox4 = new CuoreUI.Controls.cuiTextBox();
             this.cuiTextBox12 = new CuoreUI.Controls.cuiTextBox();
@@ -79,19 +66,29 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.cuiPanel2 = new CuoreUI.Controls.cuiPanel();
+            this.close_btn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.cuiLabel6 = new CuoreUI.Controls.cuiLabel();
+            this.cuiLabel5 = new CuoreUI.Controls.cuiLabel();
+            this.cuiLabel4 = new CuoreUI.Controls.cuiLabel();
+            this.cuiTextBox13 = new CuoreUI.Controls.cuiTextBox();
+            this.cuiLabel7 = new CuoreUI.Controls.cuiLabel();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.cuiTextBox7 = new CuoreUI.Controls.cuiTextBox();
             this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
             this.Bill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
-            this.cuiPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.cuiPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(15, 87);
+            this.label18.Location = new System.Drawing.Point(5, 84);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(91, 21);
             this.label18.TabIndex = 106;
@@ -101,107 +98,38 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(15, 28);
+            this.label20.Location = new System.Drawing.Point(3, 43);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(127, 21);
+            this.label20.Size = new System.Drawing.Size(55, 21);
             this.label20.TabIndex = 104;
-            this.label20.Text = "Customer Name:";
+            this.label20.Text = "Name:";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
             this.guna2Panel1.BorderColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2Panel1.BorderRadius = 15;
-            this.guna2Panel1.Controls.Add(this.cuiTextBox7);
-            this.guna2Panel1.Controls.Add(this.cuiTextBox8);
-            this.guna2Panel1.Controls.Add(this.label11);
+            this.guna2Panel1.Controls.Add(this.cuiLabel7);
+            this.guna2Panel1.Controls.Add(this.cuiTextBox13);
             this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Controls.Add(this.cuiTextBox2);
             this.guna2Panel1.Controls.Add(this.cuiTextBox1);
             this.guna2Panel1.Controls.Add(this.label18);
             this.guna2Panel1.Controls.Add(this.label20);
-            this.guna2Panel1.Location = new System.Drawing.Point(487, 12);
+            this.guna2Panel1.Location = new System.Drawing.Point(21, 437);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(645, 138);
+            this.guna2Panel1.Size = new System.Drawing.Size(316, 195);
             this.guna2Panel1.TabIndex = 124;
-            // 
-            // cuiTextBox7
-            // 
-            this.cuiTextBox7.BackgroundColor = System.Drawing.Color.White;
-            this.cuiTextBox7.Content = "";
-            this.cuiTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cuiTextBox7.FocusBackgroundColor = System.Drawing.Color.White;
-            this.cuiTextBox7.FocusImageTint = System.Drawing.Color.White;
-            this.cuiTextBox7.FocusOutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiTextBox7.ForeColor = System.Drawing.Color.Gray;
-            this.cuiTextBox7.Image = null;
-            this.cuiTextBox7.ImageExpand = new System.Drawing.Point(0, 0);
-            this.cuiTextBox7.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox7.Location = new System.Drawing.Point(498, 87);
-            this.cuiTextBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.cuiTextBox7.Multiline = false;
-            this.cuiTextBox7.Name = "cuiTextBox7";
-            this.cuiTextBox7.NormalImageTint = System.Drawing.Color.White;
-            this.cuiTextBox7.OutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiTextBox7.Padding = new System.Windows.Forms.Padding(15, 9, 15, 0);
-            this.cuiTextBox7.PasswordChar = false;
-            this.cuiTextBox7.PlaceholderColor = System.Drawing.SystemColors.WindowText;
-            this.cuiTextBox7.PlaceholderText = "";
-            this.cuiTextBox7.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiTextBox7.Size = new System.Drawing.Size(122, 33);
-            this.cuiTextBox7.TabIndex = 134;
-            this.cuiTextBox7.TextOffset = new System.Drawing.Size(0, 0);
-            this.cuiTextBox7.UnderlinedStyle = true;
-            // 
-            // cuiTextBox8
-            // 
-            this.cuiTextBox8.BackgroundColor = System.Drawing.Color.White;
-            this.cuiTextBox8.Content = "";
-            this.cuiTextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cuiTextBox8.FocusBackgroundColor = System.Drawing.Color.White;
-            this.cuiTextBox8.FocusImageTint = System.Drawing.Color.White;
-            this.cuiTextBox8.FocusOutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiTextBox8.ForeColor = System.Drawing.Color.Gray;
-            this.cuiTextBox8.Image = null;
-            this.cuiTextBox8.ImageExpand = new System.Drawing.Point(0, 0);
-            this.cuiTextBox8.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox8.Location = new System.Drawing.Point(498, 28);
-            this.cuiTextBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.cuiTextBox8.Multiline = false;
-            this.cuiTextBox8.Name = "cuiTextBox8";
-            this.cuiTextBox8.NormalImageTint = System.Drawing.Color.White;
-            this.cuiTextBox8.OutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiTextBox8.Padding = new System.Windows.Forms.Padding(15, 9, 15, 0);
-            this.cuiTextBox8.PasswordChar = false;
-            this.cuiTextBox8.PlaceholderColor = System.Drawing.SystemColors.WindowText;
-            this.cuiTextBox8.PlaceholderText = "";
-            this.cuiTextBox8.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiTextBox8.Size = new System.Drawing.Size(122, 33);
-            this.cuiTextBox8.TabIndex = 133;
-            this.cuiTextBox8.TextOffset = new System.Drawing.Size(0, 0);
-            this.cuiTextBox8.UnderlinedStyle = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(381, 99);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(91, 21);
-            this.label11.TabIndex = 132;
-            this.label11.Text = "Contact No:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(359, 31);
+            this.label12.Location = new System.Drawing.Point(5, 125);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(123, 21);
+            this.label12.Size = new System.Drawing.Size(55, 21);
             this.label12.TabIndex = 131;
-            this.label12.Text = "Customer email:";
+            this.label12.Text = " email:";
             // 
             // cuiTextBox2
             // 
@@ -216,7 +144,7 @@
             this.cuiTextBox2.Image = null;
             this.cuiTextBox2.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox2.Location = new System.Drawing.Point(167, 87);
+            this.cuiTextBox2.Location = new System.Drawing.Point(112, 84);
             this.cuiTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox2.Multiline = false;
             this.cuiTextBox2.Name = "cuiTextBox2";
@@ -227,7 +155,7 @@
             this.cuiTextBox2.PlaceholderColor = System.Drawing.SystemColors.WindowText;
             this.cuiTextBox2.PlaceholderText = "";
             this.cuiTextBox2.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiTextBox2.Size = new System.Drawing.Size(185, 33);
+            this.cuiTextBox2.Size = new System.Drawing.Size(184, 33);
             this.cuiTextBox2.TabIndex = 130;
             this.cuiTextBox2.TextOffset = new System.Drawing.Size(0, 0);
             this.cuiTextBox2.UnderlinedStyle = true;
@@ -245,7 +173,7 @@
             this.cuiTextBox1.Image = null;
             this.cuiTextBox1.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox1.Location = new System.Drawing.Point(167, 28);
+            this.cuiTextBox1.Location = new System.Drawing.Point(112, 41);
             this.cuiTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox1.Multiline = false;
             this.cuiTextBox1.Name = "cuiTextBox1";
@@ -261,122 +189,10 @@
             this.cuiTextBox1.TextOffset = new System.Drawing.Size(0, 0);
             this.cuiTextBox1.UnderlinedStyle = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(264, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 21);
-            this.label1.TabIndex = 125;
-            this.label1.Text = "SALE NO.";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(274, 96);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 21);
-            this.label5.TabIndex = 126;
-            this.label5.Text = "DATE:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 21);
-            this.label6.TabIndex = 127;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.BorderRadius = 15;
-            this.guna2Panel2.Controls.Add(this.cuiLabel1);
-            this.guna2Panel2.Controls.Add(this.cuiLabel2);
-            this.guna2Panel2.Controls.Add(this.sale_lbl);
-            this.guna2Panel2.Controls.Add(this.cuiLabel3);
-            this.guna2Panel2.Controls.Add(this.label9);
-            this.guna2Panel2.Controls.Add(this.label5);
-            this.guna2Panel2.Controls.Add(this.label10);
-            this.guna2Panel2.Controls.Add(this.label1);
-            this.guna2Panel2.Controls.Add(this.label6);
-            this.guna2Panel2.Location = new System.Drawing.Point(12, 12);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(469, 138);
-            this.guna2Panel2.TabIndex = 128;
-            // 
-            // cuiLabel1
-            // 
-            this.cuiLabel1.Content = "///";
-            this.cuiLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiLabel1.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel1.Location = new System.Drawing.Point(339, 99);
-            this.cuiLabel1.Name = "cuiLabel1";
-            this.cuiLabel1.Size = new System.Drawing.Size(104, 33);
-            this.cuiLabel1.TabIndex = 129;
-            this.cuiLabel1.VerticalAlignment = System.Drawing.StringAlignment.Near;
-            // 
-            // cuiLabel2
-            // 
-            this.cuiLabel2.Content = "///";
-            this.cuiLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiLabel2.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel2.Location = new System.Drawing.Point(108, 96);
-            this.cuiLabel2.Name = "cuiLabel2";
-            this.cuiLabel2.Size = new System.Drawing.Size(104, 33);
-            this.cuiLabel2.TabIndex = 133;
-            this.cuiLabel2.VerticalAlignment = System.Drawing.StringAlignment.Near;
-            // 
-            // sale_lbl
-            // 
-            this.sale_lbl.Content = "---";
-            this.sale_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sale_lbl.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.sale_lbl.Location = new System.Drawing.Point(346, 43);
-            this.sale_lbl.Name = "sale_lbl";
-            this.sale_lbl.Size = new System.Drawing.Size(104, 33);
-            this.sale_lbl.TabIndex = 128;
-            this.sale_lbl.VerticalAlignment = System.Drawing.StringAlignment.Near;
-            // 
-            // cuiLabel3
-            // 
-            this.cuiLabel3.Content = "NULL";
-            this.cuiLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuiLabel3.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel3.Location = new System.Drawing.Point(128, 40);
-            this.cuiLabel3.Name = "cuiLabel3";
-            this.cuiLabel3.Size = new System.Drawing.Size(104, 33);
-            this.cuiLabel3.TabIndex = 132;
-            this.cuiLabel3.VerticalAlignment = System.Drawing.StringAlignment.Near;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(26, 99);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 21);
-            this.label9.TabIndex = 131;
-            this.label9.Text = "DATE:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(17, 40);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(90, 21);
-            this.label10.TabIndex = 130;
-            this.label10.Text = "Emp Name:";
-            // 
             // Bill
             // 
             this.Bill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.Bill.BorderColor = System.Drawing.Color.Black;
+            this.Bill.BorderColor = System.Drawing.Color.Transparent;
             this.Bill.Content = "Bill:";
             this.Bill.Controls.Add(this.cuiTextBox6);
             this.Bill.Controls.Add(this.cuiButton4);
@@ -390,11 +206,11 @@
             this.Bill.Controls.Add(this.cuiTextBox9);
             this.Bill.Controls.Add(this.guna2DataGridView2);
             this.Bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Bill.Location = new System.Drawing.Point(812, 169);
+            this.Bill.Location = new System.Drawing.Point(840, 257);
             this.Bill.Name = "Bill";
             this.Bill.Padding = new System.Windows.Forms.Padding(4, 21, 4, 4);
             this.Bill.Rounding = new System.Windows.Forms.Padding(4);
-            this.Bill.Size = new System.Drawing.Size(318, 511);
+            this.Bill.Size = new System.Drawing.Size(324, 445);
             this.Bill.TabIndex = 130;
             // 
             // cuiTextBox6
@@ -410,7 +226,7 @@
             this.cuiTextBox6.Image = null;
             this.cuiTextBox6.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox6.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox6.Location = new System.Drawing.Point(198, 262);
+            this.cuiTextBox6.Location = new System.Drawing.Point(213, 225);
             this.cuiTextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox6.Multiline = false;
             this.cuiTextBox6.Name = "cuiTextBox6";
@@ -447,7 +263,7 @@
             this.cuiButton4.ImageAutoCenter = true;
             this.cuiButton4.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton4.Location = new System.Drawing.Point(182, 452);
+            this.cuiButton4.Location = new System.Drawing.Point(184, 398);
             this.cuiButton4.Name = "cuiButton4";
             this.cuiButton4.NormalBackground = System.Drawing.Color.LawnGreen;
             this.cuiButton4.NormalForeColor = System.Drawing.Color.Black;
@@ -485,7 +301,7 @@
             this.cuiButton3.ImageAutoCenter = true;
             this.cuiButton3.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton3.Location = new System.Drawing.Point(7, 452);
+            this.cuiButton3.Location = new System.Drawing.Point(14, 398);
             this.cuiButton3.Name = "cuiButton3";
             this.cuiButton3.NormalBackground = System.Drawing.Color.Red;
             this.cuiButton3.NormalForeColor = System.Drawing.Color.Black;
@@ -506,7 +322,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(7, 272);
+            this.label16.Location = new System.Drawing.Point(24, 229);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(83, 21);
             this.label16.TabIndex = 161;
@@ -516,7 +332,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(7, 411);
+            this.label15.Location = new System.Drawing.Point(27, 335);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(75, 21);
             this.label15.TabIndex = 160;
@@ -526,7 +342,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(7, 365);
+            this.label14.Location = new System.Drawing.Point(27, 296);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(47, 21);
             this.label14.TabIndex = 159;
@@ -536,7 +352,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(7, 322);
+            this.label13.Location = new System.Drawing.Point(24, 265);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(59, 21);
             this.label13.TabIndex = 158;
@@ -555,7 +371,7 @@
             this.cuiTextBox11.Image = null;
             this.cuiTextBox11.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox11.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox11.Location = new System.Drawing.Point(198, 405);
+            this.cuiTextBox11.Location = new System.Drawing.Point(213, 335);
             this.cuiTextBox11.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox11.Multiline = false;
             this.cuiTextBox11.Name = "cuiTextBox11";
@@ -584,7 +400,7 @@
             this.cuiTextBox10.Image = null;
             this.cuiTextBox10.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox10.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox10.Location = new System.Drawing.Point(198, 359);
+            this.cuiTextBox10.Location = new System.Drawing.Point(213, 296);
             this.cuiTextBox10.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox10.Multiline = false;
             this.cuiTextBox10.Name = "cuiTextBox10";
@@ -613,7 +429,7 @@
             this.cuiTextBox9.Image = null;
             this.cuiTextBox9.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox9.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox9.Location = new System.Drawing.Point(198, 316);
+            this.cuiTextBox9.Location = new System.Drawing.Point(213, 259);
             this.cuiTextBox9.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox9.Multiline = false;
             this.cuiTextBox9.Name = "cuiTextBox9";
@@ -631,31 +447,31 @@
             // 
             // guna2DataGridView2
             // 
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView2.ColumnHeadersHeight = 4;
             this.guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(7, 31);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(14, 24);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.RowHeadersVisible = false;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(297, 224);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(297, 130);
             this.guna2DataGridView2.TabIndex = 0;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -679,31 +495,6 @@
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // cuiPanel1
-            // 
-            this.cuiPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.cuiPanel1.Controls.Add(this.cuiButton2);
-            this.cuiPanel1.Controls.Add(this.cuiTextBox4);
-            this.cuiPanel1.Controls.Add(this.cuiTextBox12);
-            this.cuiPanel1.Controls.Add(this.cuiTextBox5);
-            this.cuiPanel1.Controls.Add(this.cuiTextBox3);
-            this.cuiPanel1.Controls.Add(this.cuiButton1);
-            this.cuiPanel1.Controls.Add(this.cuiComboBox1);
-            this.cuiPanel1.Controls.Add(this.guna2DataGridView1);
-            this.cuiPanel1.Controls.Add(this.label8);
-            this.cuiPanel1.Controls.Add(this.label3);
-            this.cuiPanel1.Controls.Add(this.label7);
-            this.cuiPanel1.Controls.Add(this.label4);
-            this.cuiPanel1.Controls.Add(this.label2);
-            this.cuiPanel1.Location = new System.Drawing.Point(12, 178);
-            this.cuiPanel1.Name = "cuiPanel1";
-            this.cuiPanel1.OutlineThickness = 0F;
-            this.cuiPanel1.PanelColor = System.Drawing.Color.Transparent;
-            this.cuiPanel1.PanelOutlineColor = System.Drawing.Color.Black;
-            this.cuiPanel1.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiPanel1.Size = new System.Drawing.Size(794, 359);
-            this.cuiPanel1.TabIndex = 131;
-            // 
             // cuiButton2
             // 
             this.cuiButton2.CheckButton = false;
@@ -725,7 +516,7 @@
             this.cuiButton2.ImageAutoCenter = true;
             this.cuiButton2.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton2.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton2.Location = new System.Drawing.Point(169, 100);
+            this.cuiButton2.Location = new System.Drawing.Point(693, 380);
             this.cuiButton2.Name = "cuiButton2";
             this.cuiButton2.NormalBackground = System.Drawing.Color.White;
             this.cuiButton2.NormalForeColor = System.Drawing.Color.Black;
@@ -755,7 +546,7 @@
             this.cuiTextBox4.Image = null;
             this.cuiTextBox4.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox4.Location = new System.Drawing.Point(628, 47);
+            this.cuiTextBox4.Location = new System.Drawing.Point(594, 381);
             this.cuiTextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox4.Multiline = false;
             this.cuiTextBox4.Name = "cuiTextBox4";
@@ -784,7 +575,7 @@
             this.cuiTextBox12.Image = null;
             this.cuiTextBox12.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox12.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox12.Location = new System.Drawing.Point(504, 47);
+            this.cuiTextBox12.Location = new System.Drawing.Point(470, 381);
             this.cuiTextBox12.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox12.Multiline = false;
             this.cuiTextBox12.Name = "cuiTextBox12";
@@ -813,7 +604,7 @@
             this.cuiTextBox5.Image = null;
             this.cuiTextBox5.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox5.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox5.Location = new System.Drawing.Point(387, 47);
+            this.cuiTextBox5.Location = new System.Drawing.Point(353, 381);
             this.cuiTextBox5.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox5.Multiline = false;
             this.cuiTextBox5.Name = "cuiTextBox5";
@@ -842,7 +633,7 @@
             this.cuiTextBox3.Image = null;
             this.cuiTextBox3.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox3.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiTextBox3.Location = new System.Drawing.Point(268, 47);
+            this.cuiTextBox3.Location = new System.Drawing.Point(245, 381);
             this.cuiTextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.cuiTextBox3.Multiline = false;
             this.cuiTextBox3.Name = "cuiTextBox3";
@@ -879,7 +670,7 @@
             this.cuiButton1.ImageAutoCenter = true;
             this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(30, 100);
+            this.cuiButton1.Location = new System.Drawing.Point(693, 437);
             this.cuiButton1.Name = "cuiButton1";
             this.cuiButton1.NormalBackground = System.Drawing.Color.White;
             this.cuiButton1.NormalForeColor = System.Drawing.Color.Black;
@@ -911,7 +702,7 @@
             this.cuiComboBox1.ExpandArrowColor = System.Drawing.Color.Gray;
             this.cuiComboBox1.ForeColor = System.Drawing.Color.Gray;
             this.cuiComboBox1.Items = new string[0];
-            this.cuiComboBox1.Location = new System.Drawing.Point(26, 47);
+            this.cuiComboBox1.Location = new System.Drawing.Point(12, 380);
             this.cuiComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cuiComboBox1.Name = "cuiComboBox1";
             this.cuiComboBox1.NoSelectionDropdownText = "Empty";
@@ -925,31 +716,32 @@
             // guna2DataGridView1
             // 
             this.guna2DataGridView1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.guna2DataGridView1.ColumnHeadersHeight = 4;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(5, 164);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 66);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(782, 185);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1164, 185);
             this.guna2DataGridView1.TabIndex = 165;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -977,7 +769,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(648, 16);
+            this.label8.Location = new System.Drawing.Point(614, 350);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 21);
             this.label8.TabIndex = 164;
@@ -987,7 +779,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(500, 16);
+            this.label3.Location = new System.Drawing.Point(466, 350);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 21);
             this.label3.TabIndex = 161;
@@ -997,7 +789,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(412, 16);
+            this.label7.Location = new System.Drawing.Point(378, 350);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 21);
             this.label7.TabIndex = 162;
@@ -1007,7 +799,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(276, 16);
+            this.label4.Location = new System.Drawing.Point(271, 349);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 21);
             this.label4.TabIndex = 160;
@@ -1017,35 +809,232 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft PhagsPa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(66, 16);
+            this.label2.Location = new System.Drawing.Point(61, 349);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(129, 21);
             this.label2.TabIndex = 163;
             this.label2.Text = "PRODUCT NAME";
             // 
+            // cuiPanel2
+            // 
+            this.cuiPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.cuiPanel2.Controls.Add(this.close_btn);
+            this.cuiPanel2.Controls.Add(this.label19);
+            this.cuiPanel2.Controls.Add(this.label17);
+            this.cuiPanel2.Controls.Add(this.cuiLabel6);
+            this.cuiPanel2.Controls.Add(this.cuiLabel5);
+            this.cuiPanel2.Controls.Add(this.cuiLabel4);
+            this.cuiPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cuiPanel2.Location = new System.Drawing.Point(0, 0);
+            this.cuiPanel2.Name = "cuiPanel2";
+            this.cuiPanel2.OutlineThickness = 0F;
+            this.cuiPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.cuiPanel2.PanelOutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.cuiPanel2.Rounding = new System.Windows.Forms.Padding(0);
+            this.cuiPanel2.Size = new System.Drawing.Size(1164, 66);
+            this.cuiPanel2.TabIndex = 132;
+            // 
+            // close_btn
+            // 
+            this.close_btn.BackColor = System.Drawing.Color.Transparent;
+            this.close_btn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.close_btn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.close_btn.HoverState.ImageSize = new System.Drawing.Size(35, 35);
+            this.close_btn.Image = global::InventorySystem.Properties.Resources.icons8_close_window_94;
+            this.close_btn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.close_btn.ImageRotate = 0F;
+            this.close_btn.ImageSize = new System.Drawing.Size(35, 35);
+            this.close_btn.Location = new System.Drawing.Point(1082, 0);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.PressedState.ImageSize = new System.Drawing.Size(35, 35);
+            this.close_btn.Size = new System.Drawing.Size(82, 66);
+            this.close_btn.TabIndex = 20;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(837, 43);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(44, 16);
+            this.label19.TabIndex = 19;
+            this.label19.Text = "- /- / -";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(837, 12);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(31, 16);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "000";
+            // 
+            // cuiLabel6
+            // 
+            this.cuiLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.cuiLabel6.Content = "Date:";
+            this.cuiLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel6.ForeColor = System.Drawing.Color.White;
+            this.cuiLabel6.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiLabel6.Location = new System.Drawing.Point(721, 37);
+            this.cuiLabel6.Name = "cuiLabel6";
+            this.cuiLabel6.Size = new System.Drawing.Size(135, 26);
+            this.cuiLabel6.TabIndex = 17;
+            this.cuiLabel6.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // cuiLabel5
+            // 
+            this.cuiLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.cuiLabel5.Content = "Sales\\ No:";
+            this.cuiLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel5.ForeColor = System.Drawing.Color.White;
+            this.cuiLabel5.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiLabel5.Location = new System.Drawing.Point(721, 0);
+            this.cuiLabel5.Name = "cuiLabel5";
+            this.cuiLabel5.Size = new System.Drawing.Size(135, 40);
+            this.cuiLabel5.TabIndex = 16;
+            this.cuiLabel5.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // cuiLabel4
+            // 
+            this.cuiLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.cuiLabel4.Content = "Sales\\ Form";
+            this.cuiLabel4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel4.ForeColor = System.Drawing.Color.White;
+            this.cuiLabel4.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiLabel4.Location = new System.Drawing.Point(59, 9);
+            this.cuiLabel4.Name = "cuiLabel4";
+            this.cuiLabel4.Size = new System.Drawing.Size(135, 40);
+            this.cuiLabel4.TabIndex = 1;
+            this.cuiLabel4.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // cuiTextBox13
+            // 
+            this.cuiTextBox13.BackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox13.Content = "";
+            this.cuiTextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cuiTextBox13.FocusBackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox13.FocusImageTint = System.Drawing.Color.White;
+            this.cuiTextBox13.FocusOutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiTextBox13.ForeColor = System.Drawing.Color.Gray;
+            this.cuiTextBox13.Image = null;
+            this.cuiTextBox13.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiTextBox13.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiTextBox13.Location = new System.Drawing.Point(112, 125);
+            this.cuiTextBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.cuiTextBox13.Multiline = false;
+            this.cuiTextBox13.Name = "cuiTextBox13";
+            this.cuiTextBox13.NormalImageTint = System.Drawing.Color.White;
+            this.cuiTextBox13.OutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiTextBox13.Padding = new System.Windows.Forms.Padding(15, 9, 15, 0);
+            this.cuiTextBox13.PasswordChar = false;
+            this.cuiTextBox13.PlaceholderColor = System.Drawing.SystemColors.WindowText;
+            this.cuiTextBox13.PlaceholderText = "";
+            this.cuiTextBox13.Rounding = new System.Windows.Forms.Padding(8);
+            this.cuiTextBox13.Size = new System.Drawing.Size(184, 33);
+            this.cuiTextBox13.TabIndex = 135;
+            this.cuiTextBox13.TextOffset = new System.Drawing.Size(0, 0);
+            this.cuiTextBox13.UnderlinedStyle = true;
+            // 
+            // cuiLabel7
+            // 
+            this.cuiLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.cuiLabel7.Content = "Customer:";
+            this.cuiLabel7.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel7.ForeColor = System.Drawing.Color.Black;
+            this.cuiLabel7.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiLabel7.Location = new System.Drawing.Point(3, 3);
+            this.cuiLabel7.Name = "cuiLabel7";
+            this.cuiLabel7.Size = new System.Drawing.Size(131, 31);
+            this.cuiLabel7.TabIndex = 135;
+            this.cuiLabel7.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(693, 262);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(52, 43);
+            this.guna2ImageButton1.TabIndex = 175;
+            // 
+            // cuiTextBox7
+            // 
+            this.cuiTextBox7.BackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox7.Content = "";
+            this.cuiTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cuiTextBox7.FocusBackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox7.FocusImageTint = System.Drawing.Color.White;
+            this.cuiTextBox7.FocusOutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiTextBox7.ForeColor = System.Drawing.Color.Black;
+            this.cuiTextBox7.Image = null;
+            this.cuiTextBox7.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiTextBox7.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiTextBox7.Location = new System.Drawing.Point(382, 260);
+            this.cuiTextBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.cuiTextBox7.Multiline = false;
+            this.cuiTextBox7.Name = "cuiTextBox7";
+            this.cuiTextBox7.NormalImageTint = System.Drawing.Color.White;
+            this.cuiTextBox7.OutlineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiTextBox7.Padding = new System.Windows.Forms.Padding(15, 15, 15, 0);
+            this.cuiTextBox7.PasswordChar = false;
+            this.cuiTextBox7.PlaceholderColor = System.Drawing.SystemColors.WindowFrame;
+            this.cuiTextBox7.PlaceholderText = "Search";
+            this.cuiTextBox7.Rounding = new System.Windows.Forms.Padding(20);
+            this.cuiTextBox7.Size = new System.Drawing.Size(304, 45);
+            this.cuiTextBox7.TabIndex = 174;
+            this.cuiTextBox7.TextOffset = new System.Drawing.Size(0, 0);
+            this.cuiTextBox7.UnderlinedStyle = false;
+            // 
             // Sales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            this.ClientSize = new System.Drawing.Size(1141, 701);
-            this.Controls.Add(this.cuiPanel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.ClientSize = new System.Drawing.Size(1164, 702);
+            this.Controls.Add(this.guna2ImageButton1);
+            this.Controls.Add(this.cuiTextBox7);
+            this.Controls.Add(this.guna2DataGridView1);
+            this.Controls.Add(this.cuiButton2);
+            this.Controls.Add(this.cuiPanel2);
+            this.Controls.Add(this.cuiTextBox4);
+            this.Controls.Add(this.cuiTextBox12);
             this.Controls.Add(this.Bill);
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.cuiTextBox5);
             this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.cuiTextBox3);
+            this.Controls.Add(this.cuiButton1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cuiComboBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label3);
             this.Name = "Sales";
             this.Text = "Sales";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
             this.Bill.ResumeLayout(false);
             this.Bill.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
-            this.cuiPanel1.ResumeLayout(false);
-            this.cuiPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.cuiPanel2.ResumeLayout(false);
+            this.cuiPanel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1053,21 +1042,8 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label20;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private CuoreUI.Controls.cuiTextBox cuiTextBox2;
         private CuoreUI.Controls.cuiTextBox cuiTextBox1;
-        private CuoreUI.Controls.cuiLabel cuiLabel1;
-        private CuoreUI.Controls.cuiLabel sale_lbl;
-        private CuoreUI.Controls.cuiLabel cuiLabel2;
-        private CuoreUI.Controls.cuiLabel cuiLabel3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private CuoreUI.Controls.cuiTextBox cuiTextBox7;
-        private CuoreUI.Controls.cuiTextBox cuiTextBox8;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private CuoreUI.Controls.cuiGroupBox Bill;
         private System.Windows.Forms.Label label15;
@@ -1081,7 +1057,6 @@
         private CuoreUI.Controls.cuiButton cuiButton4;
         private CuoreUI.Controls.cuiButton cuiButton3;
         private CuoreUI.Controls.cuiTextBox cuiTextBox6;
-        private CuoreUI.Controls.cuiPanel cuiPanel1;
         private CuoreUI.Controls.cuiButton cuiButton2;
         private CuoreUI.Controls.cuiTextBox cuiTextBox4;
         private CuoreUI.Controls.cuiTextBox cuiTextBox12;
@@ -1095,5 +1070,16 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
+        private CuoreUI.Controls.cuiPanel cuiPanel2;
+        private CuoreUI.Controls.cuiLabel cuiLabel4;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label17;
+        private CuoreUI.Controls.cuiLabel cuiLabel6;
+        private CuoreUI.Controls.cuiLabel cuiLabel5;
+        private Guna.UI2.WinForms.Guna2ImageButton close_btn;
+        private CuoreUI.Controls.cuiTextBox cuiTextBox13;
+        private CuoreUI.Controls.cuiLabel cuiLabel7;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private CuoreUI.Controls.cuiTextBox cuiTextBox7;
     }
 }

@@ -83,6 +83,16 @@ namespace InventorySystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_window_94 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-window-94", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_customers_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-customers-64", resourceCulture);

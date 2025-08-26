@@ -100,7 +100,6 @@ namespace InventorySystem
             productPage.TopLevel = false;
             main_pnl.Controls.Add(productPage);
             productPage.Dock = DockStyle.Fill;
-            //productPage.FormBorderStyle = FormBorderStyle.None; // Optional: Set the form border style
             productPage.Show();
 
 
@@ -140,6 +139,8 @@ namespace InventorySystem
             salePage.TopLevel = false;
             main_pnl.Controls.Add(salePage);
             salePage.Dock = DockStyle.Fill;
+            salePage.FormBorderStyle = FormBorderStyle.None; // Optional: Set the form border style
+
             salePage.Show();
         }
 
