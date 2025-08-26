@@ -16,6 +16,18 @@ namespace InventorySystem
 {
     public partial class loginForm : Form
     {
+        public static class Global
+        {
+            public static string Username { get; set; }
+        }
+
+
+
+
+
+
+
+
         public loginForm()
         {
             InitializeComponent();
@@ -58,13 +70,15 @@ namespace InventorySystem
                     string userRole = result.ToString();
                     MessageBox.Show("Login successful! User role: " + userRole);
                     this.DialogResult = DialogResult.OK;
+                    Global.Username = user_txt.Text;
+                    // we take the username and store it in a global variable to display it in the dashboard
                     this.Close();
                     // Here you can redirect to the main application form based on the user role
                   
                 }
                 else
                 {
-                    MessageBox.Show("Invalid username or password." );
+                    MessageBox.Show("Invalid username or password." + user_txt.Text );
                     user_txt.AcceptsReturn = true;
                     user_txt.Focus();
                 }
@@ -73,12 +87,10 @@ namespace InventorySystem
 
         private void loginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //Application.Exit();
         }
 
         private void loginForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            //Application.Exit();
         }
 
         private void username_validating(object sender, CancelEventArgs e)

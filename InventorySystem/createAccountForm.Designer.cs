@@ -35,7 +35,7 @@
             this.createNewAccount_btn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.createRole_cb = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.rePassword_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.createPassword_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.createUserName_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -54,7 +54,7 @@
             this.guna2GroupBox1.Controls.Add(this.createNewAccount_btn);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GroupBox1.Controls.Add(this.createRole_cb);
-            this.guna2GroupBox1.Controls.Add(this.guna2TextBox3);
+            this.guna2GroupBox1.Controls.Add(this.rePassword_txt);
             this.guna2GroupBox1.Controls.Add(this.createPassword_txt);
             this.guna2GroupBox1.Controls.Add(this.createUserName_txt);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel3);
@@ -86,6 +86,7 @@
             this.createPhone_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.createPhone_txt.Location = new System.Drawing.Point(162, 220);
             this.createPhone_txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.createPhone_txt.MaxLength = 9;
             this.createPhone_txt.Name = "createPhone_txt";
             this.createPhone_txt.PlaceholderText = "";
             this.createPhone_txt.SelectedText = "";
@@ -100,9 +101,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(26, 220);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(86, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(126, 22);
             this.guna2HtmlLabel5.TabIndex = 18;
-            this.guna2HtmlLabel5.Text = "Phone No:";
+            this.guna2HtmlLabel5.Text = "Phone Number:";
             // 
             // createNewAccount_btn
             // 
@@ -150,31 +151,32 @@
             this.createRole_cb.Location = new System.Drawing.Point(162, 273);
             this.createRole_cb.Name = "createRole_cb";
             this.createRole_cb.Size = new System.Drawing.Size(332, 36);
+            this.createRole_cb.StartIndex = 1;
             this.createRole_cb.TabIndex = 5;
             this.createRole_cb.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
-            // guna2TextBox3
+            // rePassword_txt
             // 
-            this.guna2TextBox3.AutoRoundedCorners = true;
-            this.guna2TextBox3.BorderColor = System.Drawing.Color.Black;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(162, 163);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(332, 33);
-            this.guna2TextBox3.TabIndex = 3;
-            this.guna2TextBox3.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
+            this.rePassword_txt.AutoRoundedCorners = true;
+            this.rePassword_txt.BorderColor = System.Drawing.Color.Black;
+            this.rePassword_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.rePassword_txt.DefaultText = "";
+            this.rePassword_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.rePassword_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.rePassword_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rePassword_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rePassword_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rePassword_txt.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.rePassword_txt.ForeColor = System.Drawing.Color.Black;
+            this.rePassword_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rePassword_txt.Location = new System.Drawing.Point(162, 163);
+            this.rePassword_txt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rePassword_txt.Name = "rePassword_txt";
+            this.rePassword_txt.PlaceholderText = "";
+            this.rePassword_txt.SelectedText = "";
+            this.rePassword_txt.Size = new System.Drawing.Size(332, 33);
+            this.rePassword_txt.TabIndex = 3;
+            this.rePassword_txt.Validating += new System.ComponentModel.CancelEventHandler(this.user_validation);
             // 
             // createPassword_txt
             // 
@@ -269,6 +271,7 @@
             this.Name = "createAccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "createAccountForm";
+            this.Shown += new System.EventHandler(this.createAccountForm_Shown);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -281,7 +284,7 @@
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2ComboBox createRole_cb;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox rePassword_txt;
         private Guna.UI2.WinForms.Guna2TextBox createPassword_txt;
         private Guna.UI2.WinForms.Guna2TextBox createUserName_txt;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;

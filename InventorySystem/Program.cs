@@ -17,9 +17,9 @@ namespace InventorySystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard());
-            loginForm loginPage = new loginForm();
+            Application.Run(new Dashboard());   // Start app with Dashboard (no login)
 
+            //loginForm loginPage = new loginForm();
             //if (loginPage.ShowDialog() == DialogResult.OK)   // login successful
             //{
             //    Application.Run(new Dashboard());    // start app with Dashboard

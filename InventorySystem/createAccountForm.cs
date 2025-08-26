@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CuoreUI.Components.Forms;
 
 namespace InventorySystem
 {
@@ -21,11 +23,50 @@ namespace InventorySystem
             conn.Open();
         }
 
+
+        //function to validate phone number and password
+        private bool IsValid(string password, string phone)
+        {
+            if (password.Length < 8)
+            {
+                MessageBox.Show("Password must be at least 8 characters long!", "Invalid Password", MessageBoxButtons.OK);
+                return false;
+            }
+            else if (!phone.All(char.IsDigit) || phone.Length != 9 || !phone.StartsWith("7"))
+            {
+                MessageBox.Show("Phone number must be only 9 digits! , contain only numbers!, and should start with 7!", "Invalid Phone Number", MessageBoxButtons.OK);
+                return false;
+            }
+            else if (!password.Any(char.IsUpper))
+            {
+                MessageBox.Show("Password must contain at least one uppercase letter!", "Invalid Password", MessageBoxButtons.OK);
+                return false;
+            }
+            else if (!password.Any(char.IsLower))
+            {
+                MessageBox.Show("Password must contain at least one lowercase letter!", "Invalid Password", MessageBoxButtons.OK);
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+
+
+        }
+
+
+
+
         private void createNewAccount_btn_Click(object sender, EventArgs e)
         {
-            try
+                bool valid = IsValid(createPassword_txt.Text, createPhone_txt.Text);
+        if (valid)
             {
-                string myConn = Properties.Settings.Default.Inventory_DB_Conn;
+                try
+                  {
+                    string myConn = Properties.Settings.Default.Inventory_DB_Conn;
                 using (SqlConnection con = new SqlConnection(myConn))
                 {
                     con.Open();
@@ -42,12 +83,19 @@ namespace InventorySystem
                     MessageBox.Show("Account created successfully!");
                     this.Close();
                 }
+                 }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error creating account: " + ex.Message);
+                }
             }
-            catch (Exception ex)
+        else
             {
-                MessageBox.Show("Error creating account: " + ex.Message);
+                return;
             }
+            
         }
+        
 
         private void user_validation(object sender, CancelEventArgs e)
         {
@@ -56,9 +104,21 @@ namespace InventorySystem
             {
                 error = "This field can't be empty!";
                 e.Cancel = true;
+
+
             }
             errorProvider1.SetError((Control)sender, error);
 
+          
+
+
+
+
+        }
+
+        private void createAccountForm_Shown(object sender, EventArgs e)
+        {
+            createUserName_txt.Focus();
         }
     }
 }

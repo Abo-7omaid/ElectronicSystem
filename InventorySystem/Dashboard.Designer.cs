@@ -83,11 +83,12 @@
             this.user_lbl.BackColor = System.Drawing.Color.Transparent;
             this.user_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_lbl.ForeColor = System.Drawing.Color.White;
-            this.user_lbl.Location = new System.Drawing.Point(47, 17);
+            this.user_lbl.Location = new System.Drawing.Point(43, 17);
             this.user_lbl.Name = "user_lbl";
             this.user_lbl.Size = new System.Drawing.Size(44, 18);
             this.user_lbl.TabIndex = 15;
             this.user_lbl.Text = "User";
+            this.user_lbl.Click += new System.EventHandler(this.user_lbl_Click);
             // 
             // notification_btn
             // 
@@ -483,12 +484,12 @@
         private CuoreUI.Controls.cuiLabel cuiLabel8;
         private Guna.UI2.WinForms.Guna2ImageButton notification_btn;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton9;
-        private System.Windows.Forms.Label user_lbl;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton10;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton11;
         private System.Windows.Forms.Label label3;
         private CuoreUI.Controls.cuiLabel cuiLabel9;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
+        protected internal System.Windows.Forms.Label user_lbl;
     }
 }

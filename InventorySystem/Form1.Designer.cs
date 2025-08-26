@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.eyeImage_btn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.createAccount_btn = new Guna.UI2.WinForms.Guna2Button();
             this.login_btn = new Guna.UI2.WinForms.Guna2Button();
             this.password_txt = new Guna.UI2.WinForms.Guna2TextBox();
@@ -38,7 +39,6 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.eyeImage_btn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -75,6 +75,22 @@
             this.guna2GroupBox1.TabIndex = 1;
             this.guna2GroupBox1.Text = "Login";
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
+            // 
+            // eyeImage_btn
+            // 
+            this.eyeImage_btn.BackColor = System.Drawing.Color.White;
+            this.eyeImage_btn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.eyeImage_btn.HoverState.ImageSize = new System.Drawing.Size(25, 25);
+            this.eyeImage_btn.Image = global::InventorySystem.Properties.Resources.icons8_eye_25;
+            this.eyeImage_btn.ImageOffset = new System.Drawing.Point(0, 0);
+            this.eyeImage_btn.ImageRotate = 0F;
+            this.eyeImage_btn.ImageSize = new System.Drawing.Size(25, 25);
+            this.eyeImage_btn.Location = new System.Drawing.Point(505, 170);
+            this.eyeImage_btn.Name = "eyeImage_btn";
+            this.eyeImage_btn.PressedState.ImageSize = new System.Drawing.Size(25, 25);
+            this.eyeImage_btn.Size = new System.Drawing.Size(25, 26);
+            this.eyeImage_btn.TabIndex = 6;
+            this.eyeImage_btn.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // createAccount_btn
             // 
@@ -184,22 +200,6 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // eyeImage_btn
-            // 
-            this.eyeImage_btn.BackColor = System.Drawing.Color.White;
-            this.eyeImage_btn.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.eyeImage_btn.HoverState.ImageSize = new System.Drawing.Size(25, 25);
-            this.eyeImage_btn.Image = global::InventorySystem.Properties.Resources.icons8_eye_25;
-            this.eyeImage_btn.ImageOffset = new System.Drawing.Point(0, 0);
-            this.eyeImage_btn.ImageRotate = 0F;
-            this.eyeImage_btn.ImageSize = new System.Drawing.Size(25, 25);
-            this.eyeImage_btn.Location = new System.Drawing.Point(505, 170);
-            this.eyeImage_btn.Name = "eyeImage_btn";
-            this.eyeImage_btn.PressedState.ImageSize = new System.Drawing.Size(25, 25);
-            this.eyeImage_btn.Size = new System.Drawing.Size(25, 26);
-            this.eyeImage_btn.TabIndex = 6;
-            this.eyeImage_btn.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
             // loginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,11 +230,11 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2TextBox password_txt;
-        private Guna.UI2.WinForms.Guna2TextBox user_txt;
         private Guna.UI2.WinForms.Guna2Button login_btn;
         private Guna.UI2.WinForms.Guna2Button createAccount_btn;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private Guna.UI2.WinForms.Guna2ImageButton eyeImage_btn;
+        protected internal Guna.UI2.WinForms.Guna2TextBox user_txt;
     }
 }
 

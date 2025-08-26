@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace InventorySystem
 {
@@ -19,10 +20,13 @@ namespace InventorySystem
 
         public Dashboard()
         {
-            InitializeComponent();
+        InitializeComponent();
             // Initialize the panel width for the expanded state
             panelWidth = sidebar_pnl.Width; // Set the initial width of the main panel
             isCollapsed = false; // Initially, the panel is not collapsed
+            user_lbl.Text = loginForm.Global.Username;
+
+
         }
 
         private void sale_btn_Click(object sender, EventArgs e)
@@ -30,10 +34,7 @@ namespace InventorySystem
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-        }
-  
+       
         
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
@@ -52,10 +53,7 @@ namespace InventorySystem
             }
         }
 
-        private void cuiPictureBox1_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void cuiButton1_Click(object sender, EventArgs e)
         {
@@ -75,6 +73,9 @@ namespace InventorySystem
         {
             //loginForm loginPage = new loginForm();
             //loginPage.Show();
+            //loginForm loginPage = new loginForm();
+            //user_lbl.Text = this.currentUser;
+
         }
 
         private void Dashboard_Shown(object sender, EventArgs e)
@@ -157,7 +158,12 @@ namespace InventorySystem
 
         private void cuiLabel1_Load(object sender, EventArgs e)
         {
+       
+        }
 
+        private void user_lbl_Click(object sender, EventArgs e)
+        {
+           
         }
     }
     }
