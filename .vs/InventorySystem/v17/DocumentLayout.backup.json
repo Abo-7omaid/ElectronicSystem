@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|c:\\users\\aalru\\source\\repos\\abo-7omaid\\electronicsystem\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|c:\\users\\aalru\\source\\repos\\electronicsystemk\\inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|c:\\users\\aalru\\source\\repos\\electronicsystemk\\inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|c:\\users\\aalru\\source\\repos\\abo-7omaid\\electronicsystem\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|c:\\users\\aalru\\source\\repos\\electronicsystemk\\inventorysystem\\db_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\db_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\prod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A65A441B-8CB3-4BD4-9B31-CF47A125DF62}|InventorySystem\\InventorySystem.csproj|solutionrelative:inventorysystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Program.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Program.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Program.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Program.cs",
               "RelativeToolTip": "InventorySystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T22:51:27.126Z",
               "IsPinned": true,
@@ -72,13 +80,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "productForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\productForm.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\productForm.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\productForm.cs [Design]",
+              "RelativeToolTip": "InventorySystem\\productForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T20:48:01.207Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "db_class.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\db_class.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\db_class.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\db_class.cs",
+              "RelativeToolTip": "InventorySystem\\db_class.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T22:25:22.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "productForm.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\productForm.cs",
+              "RelativeDocumentMoniker": "InventorySystem\\productForm.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\productForm.cs",
+              "RelativeToolTip": "InventorySystem\\productForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAlwCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T23:09:01.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Sales.cs",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Sales.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Sales.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Sales.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Sales.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Sales.cs",
               "RelativeToolTip": "InventorySystem\\Sales.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowEMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T01:21:39.285Z",
               "EditorCaption": ""
@@ -87,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sales.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Sales.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Sales.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Sales.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Sales.cs [Design]",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Sales.cs [Design]",
               "RelativeToolTip": "InventorySystem\\Sales.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T00:23:53.074Z",
@@ -97,24 +143,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Dashboard.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Dashboard.cs",
               "RelativeToolTip": "InventorySystem\\Dashboard.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAwwI0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwI0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T20:37:08.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Dashboard.cs",
               "RelativeDocumentMoniker": "InventorySystem\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\Dashboard.cs [Design]",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\Dashboard.cs [Design]",
               "RelativeToolTip": "InventorySystem\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T23:14:58.948Z",
@@ -122,23 +168,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "productForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\productForm.cs",
-              "RelativeDocumentMoniker": "InventorySystem\\productForm.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\productForm.cs [Design]",
-              "RelativeToolTip": "InventorySystem\\productForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T20:48:01.207Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PROD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\PROD.cs",
+              "DocumentMoniker": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\PROD.cs",
               "RelativeDocumentMoniker": "InventorySystem\\PROD.cs",
-              "ToolTip": "C:\\Users\\aalru\\source\\repos\\Abo-7omaid\\ElectronicSystem\\InventorySystem\\PROD.cs [Design]",
+              "ToolTip": "C:\\Users\\aalru\\source\\repos\\ElectronicSystemk\\InventorySystem\\PROD.cs [Design]",
               "RelativeToolTip": "InventorySystem\\PROD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T22:03:58.091Z",
