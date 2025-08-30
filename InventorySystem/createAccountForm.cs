@@ -109,11 +109,6 @@ namespace InventorySystem
             }
             errorProvider1.SetError((Control)sender, error);
 
-          
-
-
-
-
         }
 
         private void createAccountForm_Shown(object sender, EventArgs e)

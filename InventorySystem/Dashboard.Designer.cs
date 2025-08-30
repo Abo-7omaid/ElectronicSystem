@@ -36,6 +36,10 @@
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton9 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.sidebar_pnl = new CuoreUI.Controls.cuiPanel();
+            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.cuiLabel9 = new CuoreUI.Controls.cuiLabel();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.cuiLabel8 = new CuoreUI.Controls.cuiLabel();
@@ -153,6 +157,13 @@
             // 
             // sidebar_pnl
             // 
+            this.sidebar_pnl.AutoScroll = true;
+            this.sidebar_pnl.AutoSize = true;
+            this.sidebar_pnl.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.sidebar_pnl.Controls.Add(this.guna2ImageButton6);
+            this.sidebar_pnl.Controls.Add(this.guna2ImageButton5);
+            this.sidebar_pnl.Controls.Add(this.guna2ImageButton4);
+            this.sidebar_pnl.Controls.Add(this.guna2ImageButton3);
             this.sidebar_pnl.Controls.Add(this.cuiLabel9);
             this.sidebar_pnl.Controls.Add(this.guna2ImageButton2);
             this.sidebar_pnl.Controls.Add(this.cuiLabel8);
@@ -174,8 +185,64 @@
             this.sidebar_pnl.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.sidebar_pnl.PanelOutlineColor = System.Drawing.Color.Black;
             this.sidebar_pnl.Rounding = new System.Windows.Forms.Padding(0);
-            this.sidebar_pnl.Size = new System.Drawing.Size(153, 732);
+            this.sidebar_pnl.Size = new System.Drawing.Size(137, 732);
             this.sidebar_pnl.TabIndex = 1;
+            // 
+            // guna2ImageButton6
+            // 
+            this.guna2ImageButton6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(67, 67);
+            this.guna2ImageButton6.Image = global::InventorySystem.Properties.Resources.icons8_supplier_48;
+            this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton6.ImageRotate = 0F;
+            this.guna2ImageButton6.Location = new System.Drawing.Point(15, 868);
+            this.guna2ImageButton6.Name = "guna2ImageButton6";
+            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton6.Size = new System.Drawing.Size(118, 83);
+            this.guna2ImageButton6.TabIndex = 24;
+            // 
+            // guna2ImageButton5
+            // 
+            this.guna2ImageButton5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(67, 67);
+            this.guna2ImageButton5.Image = global::InventorySystem.Properties.Resources.icons8_setting_64;
+            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton5.ImageRotate = 0F;
+            this.guna2ImageButton5.Location = new System.Drawing.Point(30, 782);
+            this.guna2ImageButton5.Name = "guna2ImageButton5";
+            this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton5.Size = new System.Drawing.Size(86, 71);
+            this.guna2ImageButton5.TabIndex = 23;
+            // 
+            // guna2ImageButton4
+            // 
+            this.guna2ImageButton4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton4.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton4.HoverState.ImageSize = new System.Drawing.Size(67, 67);
+            this.guna2ImageButton4.Image = global::InventorySystem.Properties.Resources.icons8_payments_64;
+            this.guna2ImageButton4.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton4.ImageRotate = 0F;
+            this.guna2ImageButton4.Location = new System.Drawing.Point(15, 766);
+            this.guna2ImageButton4.Name = "guna2ImageButton4";
+            this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton4.Size = new System.Drawing.Size(118, 79);
+            this.guna2ImageButton4.TabIndex = 22;
+            // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(67, 67);
+            this.guna2ImageButton3.Image = global::InventorySystem.Properties.Resources.icons8_payments_64;
+            this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton3.ImageRotate = 0F;
+            this.guna2ImageButton3.Location = new System.Drawing.Point(15, 686);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton3.Size = new System.Drawing.Size(118, 79);
+            this.guna2ImageButton3.TabIndex = 21;
             // 
             // cuiLabel9
             // 
@@ -184,7 +251,7 @@
             this.cuiLabel9.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel9.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel9.Location = new System.Drawing.Point(23, 577);
+            this.cuiLabel9.Location = new System.Drawing.Point(19, 577);
             this.cuiLabel9.Name = "cuiLabel9";
             this.cuiLabel9.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel9.TabIndex = 20;
@@ -198,7 +265,7 @@
             this.guna2ImageButton2.Image = global::InventorySystem.Properties.Resources.icons8_payments_64;
             this.guna2ImageButton2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton2.ImageRotate = 0F;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(19, 492);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(15, 492);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
             this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.Size = new System.Drawing.Size(118, 79);
@@ -225,7 +292,7 @@
             this.setting_btn.Image = global::InventorySystem.Properties.Resources.icons8_setting_64;
             this.setting_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.setting_btn.ImageRotate = 0F;
-            this.setting_btn.Location = new System.Drawing.Point(30, 609);
+            this.setting_btn.Location = new System.Drawing.Point(26, 609);
             this.setting_btn.Name = "setting_btn";
             this.setting_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.setting_btn.Size = new System.Drawing.Size(86, 71);
@@ -238,7 +305,7 @@
             this.cuiLabel5.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel5.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel5.Location = new System.Drawing.Point(26, 364);
+            this.cuiLabel5.Location = new System.Drawing.Point(22, 364);
             this.cuiLabel5.Name = "cuiLabel5";
             this.cuiLabel5.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel5.TabIndex = 12;
@@ -252,7 +319,7 @@
             this.suppliers_btn.Image = global::InventorySystem.Properties.Resources.icons8_supplier_48;
             this.suppliers_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.suppliers_btn.ImageRotate = 0F;
-            this.suppliers_btn.Location = new System.Drawing.Point(20, 285);
+            this.suppliers_btn.Location = new System.Drawing.Point(16, 285);
             this.suppliers_btn.Name = "suppliers_btn";
             this.suppliers_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.suppliers_btn.Size = new System.Drawing.Size(118, 83);
@@ -265,7 +332,7 @@
             this.cuiLabel6.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel6.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel6.Location = new System.Drawing.Point(20, 264);
+            this.cuiLabel6.Location = new System.Drawing.Point(16, 264);
             this.cuiLabel6.Name = "cuiLabel6";
             this.cuiLabel6.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel6.TabIndex = 13;
@@ -278,7 +345,7 @@
             this.cuiLabel4.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel4.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel4.Location = new System.Drawing.Point(20, 463);
+            this.cuiLabel4.Location = new System.Drawing.Point(16, 463);
             this.cuiLabel4.Name = "cuiLabel4";
             this.cuiLabel4.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel4.TabIndex = 11;
@@ -293,7 +360,7 @@
             this.customer_btn.Image = global::InventorySystem.Properties.Resources.icons8_customers_64;
             this.customer_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.customer_btn.ImageRotate = 0F;
-            this.customer_btn.Location = new System.Drawing.Point(15, 396);
+            this.customer_btn.Location = new System.Drawing.Point(11, 396);
             this.customer_btn.Name = "customer_btn";
             this.customer_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.customer_btn.Size = new System.Drawing.Size(118, 61);
@@ -306,7 +373,7 @@
             this.cuiLabel3.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel3.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel3.Location = new System.Drawing.Point(23, 155);
+            this.cuiLabel3.Location = new System.Drawing.Point(19, 155);
             this.cuiLabel3.Name = "cuiLabel3";
             this.cuiLabel3.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel3.TabIndex = 10;
@@ -319,7 +386,7 @@
             this.cuiLabel2.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuiLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.cuiLabel2.HorizontalAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiLabel2.Location = new System.Drawing.Point(23, 66);
+            this.cuiLabel2.Location = new System.Drawing.Point(19, 66);
             this.cuiLabel2.Name = "cuiLabel2";
             this.cuiLabel2.Size = new System.Drawing.Size(107, 26);
             this.cuiLabel2.TabIndex = 9;
@@ -333,7 +400,7 @@
             this.order_btn.Image = global::InventorySystem.Properties.Resources.icons8_order_64;
             this.order_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.order_btn.ImageRotate = 0F;
-            this.order_btn.Location = new System.Drawing.Point(15, 177);
+            this.order_btn.Location = new System.Drawing.Point(11, 177);
             this.order_btn.Name = "order_btn";
             this.order_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.order_btn.Size = new System.Drawing.Size(118, 79);
@@ -347,7 +414,7 @@
             this.product_btn.Image = global::InventorySystem.Properties.Resources.icons8_product_64__1_;
             this.product_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.product_btn.ImageRotate = 0F;
-            this.product_btn.Location = new System.Drawing.Point(17, 92);
+            this.product_btn.Location = new System.Drawing.Point(13, 92);
             this.product_btn.Name = "product_btn";
             this.product_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.product_btn.Size = new System.Drawing.Size(118, 61);
@@ -362,7 +429,7 @@
             this.sale_btn.Image = global::InventorySystem.Properties.Resources.icons8_purchase_96;
             this.sale_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.sale_btn.ImageRotate = 0F;
-            this.sale_btn.Location = new System.Drawing.Point(30, 3);
+            this.sale_btn.Location = new System.Drawing.Point(26, 3);
             this.sale_btn.Name = "sale_btn";
             this.sale_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.sale_btn.Size = new System.Drawing.Size(96, 61);
@@ -379,13 +446,13 @@
             this.main_pnl.Controls.Add(this.guna2ImageButton10);
             this.main_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.main_pnl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.main_pnl.Location = new System.Drawing.Point(153, 46);
+            this.main_pnl.Location = new System.Drawing.Point(137, 46);
             this.main_pnl.Name = "main_pnl";
             this.main_pnl.OutlineThickness = 1F;
             this.main_pnl.PanelColor = System.Drawing.Color.Transparent;
             this.main_pnl.PanelOutlineColor = System.Drawing.Color.Black;
             this.main_pnl.Rounding = new System.Windows.Forms.Padding(0);
-            this.main_pnl.Size = new System.Drawing.Size(1162, 732);
+            this.main_pnl.Size = new System.Drawing.Size(1178, 732);
             this.main_pnl.TabIndex = 2;
             this.main_pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.main_pnl_Paint);
             // 
@@ -451,6 +518,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.Shown += new System.EventHandler(this.Dashboard_Shown);
@@ -460,6 +528,7 @@
             this.main_pnl.ResumeLayout(false);
             this.main_pnl.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -491,5 +560,9 @@
         private CuoreUI.Controls.cuiLabel cuiLabel9;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         protected internal System.Windows.Forms.Label user_lbl;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton6;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton5;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
     }
 }

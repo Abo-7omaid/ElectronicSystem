@@ -56,7 +56,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.bill_dgv = new Guna.UI2.WinForms.Guna2DataGridView();
             this.addItem_btn = new CuoreUI.Controls.cuiButton();
-            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
             this.product_dgv = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -79,12 +78,18 @@
             this.quantity_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.productName_cb = new Guna.UI2.WinForms.Guna2ComboBox();
             this.search_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2Panel1.SuspendLayout();
             this.Bill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bill_dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product_dgv)).BeginInit();
             this.cuiPanel2.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label18
@@ -221,7 +226,7 @@
             this.Bill.Controls.Add(this.label13);
             this.Bill.Controls.Add(this.bill_dgv);
             this.Bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.Bill.Location = new System.Drawing.Point(828, 261);
+            this.Bill.Location = new System.Drawing.Point(828, 274);
             this.Bill.Name = "Bill";
             this.Bill.Padding = new System.Windows.Forms.Padding(4, 21, 4, 4);
             this.Bill.Rounding = new System.Windows.Forms.Padding(4);
@@ -508,44 +513,6 @@
             this.addItem_btn.TextAlignment = System.Drawing.StringAlignment.Center;
             this.addItem_btn.TextOffset = new System.Drawing.Point(0, 0);
             // 
-            // cuiButton1
-            // 
-            this.cuiButton1.CheckButton = false;
-            this.cuiButton1.Checked = false;
-            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
-            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
-            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.cuiButton1.Content = "Search";
-            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.cuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.cuiButton1.ForeColor = System.Drawing.Color.Black;
-            this.cuiButton1.HoverBackground = System.Drawing.Color.White;
-            this.cuiButton1.HoverForeColor = System.Drawing.Color.Black;
-            this.cuiButton1.HoverImageTint = System.Drawing.Color.White;
-            this.cuiButton1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiButton1.Image = null;
-            this.cuiButton1.ImageAutoCenter = true;
-            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
-            this.cuiButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.cuiButton1.Location = new System.Drawing.Point(21, 250);
-            this.cuiButton1.Name = "cuiButton1";
-            this.cuiButton1.NormalBackground = System.Drawing.Color.White;
-            this.cuiButton1.NormalForeColor = System.Drawing.Color.Black;
-            this.cuiButton1.NormalImageTint = System.Drawing.Color.White;
-            this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiButton1.OutlineThickness = 1F;
-            this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
-            this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.cuiButton1.PressedImageTint = System.Drawing.Color.White;
-            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(8);
-            this.cuiButton1.Size = new System.Drawing.Size(113, 35);
-            this.cuiButton1.TabIndex = 167;
-            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton1.TextOffset = new System.Drawing.Point(0, 0);
-            // 
             // product_dgv
             // 
             this.product_dgv.AllowUserToAddRows = false;
@@ -580,7 +547,7 @@
             this.product_dgv.Dock = System.Windows.Forms.DockStyle.Top;
             this.product_dgv.EnableHeadersVisualStyles = true;
             this.product_dgv.GridColor = System.Drawing.Color.Black;
-            this.product_dgv.Location = new System.Drawing.Point(0, 66);
+            this.product_dgv.Location = new System.Drawing.Point(0, 93);
             this.product_dgv.Name = "product_dgv";
             this.product_dgv.RowHeadersVisible = false;
             this.product_dgv.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
@@ -608,6 +575,7 @@
             this.product_dgv.ThemeStyle.RowsStyle.Height = 22;
             this.product_dgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.Silver;
             this.product_dgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Red;
+            this.product_dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.product_dgv_CellContentClick);
             // 
             // label8
             // 
@@ -669,7 +637,7 @@
             this.cuiPanel2.Controls.Add(this.cuiLabel5);
             this.cuiPanel2.Controls.Add(this.cuiLabel4);
             this.cuiPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cuiPanel2.Location = new System.Drawing.Point(0, 0);
+            this.cuiPanel2.Location = new System.Drawing.Point(0, 27);
             this.cuiPanel2.Name = "cuiPanel2";
             this.cuiPanel2.OutlineThickness = 0F;
             this.cuiPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
@@ -766,10 +734,10 @@
             this.SalesSearch_btn.ImageOffset = new System.Drawing.Point(0, 0);
             this.SalesSearch_btn.ImageRotate = 0F;
             this.SalesSearch_btn.ImageSize = new System.Drawing.Size(40, 40);
-            this.SalesSearch_btn.Location = new System.Drawing.Point(746, 250);
+            this.SalesSearch_btn.Location = new System.Drawing.Point(708, 285);
             this.SalesSearch_btn.Name = "SalesSearch_btn";
             this.SalesSearch_btn.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.SalesSearch_btn.Size = new System.Drawing.Size(52, 43);
+            this.SalesSearch_btn.Size = new System.Drawing.Size(55, 43);
             this.SalesSearch_btn.TabIndex = 175;
             this.SalesSearch_btn.Click += new System.EventHandler(this.SalesSearch_btn_Click);
             // 
@@ -914,13 +882,51 @@
             this.search_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.search_txt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.search_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.search_txt.Location = new System.Drawing.Point(401, 250);
+            this.search_txt.Location = new System.Drawing.Point(374, 285);
             this.search_txt.Name = "search_txt";
             this.search_txt.PlaceholderText = "";
             this.search_txt.SelectedText = "";
             this.search_txt.Size = new System.Drawing.Size(328, 43);
             this.search_txt.TabIndex = 176;
             this.search_txt.TextChanged += new System.EventHandler(this.search_txt_TextChanged);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.fileToolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1164, 27);
+            this.menuStrip1.TabIndex = 177;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem,
+            this.fileToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(145, 23);
+            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.newToolStripMenuItem.Text = "new";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.fileToolStripMenuItem.Text = "file";
+            // 
+            // fileToolStripMenuItem1
+            // 
+            this.fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
+            this.fileToolStripMenuItem1.Size = new System.Drawing.Size(38, 23);
+            this.fileToolStripMenuItem1.Text = "file";
             // 
             // Sales
             // 
@@ -935,7 +941,8 @@
             this.Controls.Add(this.cuiPanel2);
             this.Controls.Add(this.Bill);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.cuiButton1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Sales";
             this.Text = "Sales";
             this.Shown += new System.EventHandler(this.Sales_Shown);
@@ -949,7 +956,10 @@
             this.cuiPanel2.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -967,7 +977,6 @@
         private CuoreUI.Controls.cuiButton checkout_btn;
         private CuoreUI.Controls.cuiButton discard_btn;
         private CuoreUI.Controls.cuiButton addItem_btn;
-        private CuoreUI.Controls.cuiButton cuiButton1;
         private Guna.UI2.WinForms.Guna2DataGridView product_dgv;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label3;
@@ -998,5 +1007,10 @@
         private Guna.UI2.WinForms.Guna2TextBox customerEmail_txt;
         private Guna.UI2.WinForms.Guna2TextBox customerContact_txt;
         private Guna.UI2.WinForms.Guna2TextBox customerName_txt;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem1;
     }
 }

@@ -99,6 +99,16 @@ namespace InventorySystem
         {
 
         }
+
+        private void cuiButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void product_dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
 

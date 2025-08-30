@@ -74,3 +74,6 @@ C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\Inventor
 C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\Inventor.4967888A.Up2Date
 C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\InventorySystem.exe
 C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\InventorySystem.pdb
+C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\InventorySystem.pract.resources
+C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\InventorySystem.updateProduct.resources
+C:\Users\aalru\source\repos\ElectronicSystemk\InventorySystem\obj\Debug\InventorySystem.updateProductControl.resources

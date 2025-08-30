@@ -75,10 +75,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Functions.cs" />
     <Compile Include="InventoryDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>InventoryDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pract.Designer.cs">
+      <DependentUpon>pract.cs</DependentUpon>
     </Compile>
     <Compile Include="PROD.cs">
       <SubType>UserControl</SubType>
@@ -100,6 +107,18 @@
     <Compile Include="Sales.Designer.cs">
       <DependentUpon>Sales.cs</DependentUpon>
     </Compile>
+    <Compile Include="updateProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="updateProduct.Designer.cs">
+      <DependentUpon>updateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateProductControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="updateProductControl.Designer.cs">
+      <DependentUpon>updateProductControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="createAccountForm.resx">
       <DependentUpon>createAccountForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pract.resx">
+      <DependentUpon>pract.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PROD.resx">
       <DependentUpon>PROD.cs</DependentUpon>
@@ -127,6 +149,12 @@
     </Compile>
     <EmbeddedResource Include="Sales.resx">
       <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateProduct.resx">
+      <DependentUpon>updateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateProductControl.resx">
+      <DependentUpon>updateProductControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="InventoryDBDataSet.xsc">
       <DependentUpon>InventoryDBDataSet.xsd</DependentUpon>
@@ -239,6 +267,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-close-window-94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-new-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-refresh-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
